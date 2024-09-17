@@ -17,7 +17,7 @@ const Home = () => {
     {
       id: 0,
       icon: {
-        src: "src/assets/whylsa/lock_svg.svg",
+        src: "/assets/whylsa/lock_svg.svg",
         alt: "online_svg",
       },
       title: "Simplify Your PCI",
@@ -27,7 +27,7 @@ const Home = () => {
     {
       id: 1,
       icon: {
-        src: "src/assets/whylsa/no_wifi_svg.svg",
+        src: "/assets/whylsa/no_wifi_svg.svg",
         alt: "no_wifi_svg",
       },
       title: "Online / Offline",
@@ -37,7 +37,7 @@ const Home = () => {
     {
       id: 2,
       icon: {
-        src: "src/assets/whylsa/online_svg.svg",
+        src: "/assets/whylsa/online_svg.svg",
         alt: "online_svg",
       },
       title: "iOS, Android or Windows",
@@ -47,7 +47,7 @@ const Home = () => {
     {
       id: 3,
       icon: {
-        src: "src/assets/whylsa/wristband_svg.svg",
+        src: "/assets/whylsa/wristband_svg.svg",
         alt: "Accept Wristbands",
       },
       title: "Accept Wristbands",

@@ -82,7 +82,7 @@ const SequenceImages = () => {
 
   const getImagePath = (frame) => {
     const paddedFrame = frame.toString().padStart(4, "0");
-    return `/src/assets/images/${paddedFrame}.png`; // Adjust the path if necessary
+    return `//assets/images/${paddedFrame}.png`; // Adjust the path if necessary
   };
 
   return (

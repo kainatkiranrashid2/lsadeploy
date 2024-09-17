@@ -2,17 +2,17 @@ import { useState, useEffect } from "react";
 // import { motion } from "framer-motion";
 
 const floatingImages = [
-  { src: "src/assets/GlobeComponent/visa.png", position: 1 },
-  { src: "src/assets/GlobeComponent/mastercard.png", position: 2 },
-  { src: "src/assets/GlobeComponent/americanexp.png", position: 3 },
-  { src: "src/assets/GlobeComponent/visa.png", position: 4 },
-  { src: "src/assets/GlobeComponent/visa.png", position: 5 },
-  { src: "src/assets/GlobeComponent/visa.png", position: 6 },
-  { src: "src/assets/GlobeComponent/visa.png", position: 7 },
-  { src: "src/assets/GlobeComponent/visa.png", position: 8 },
-  { src: "src/assets/GlobeComponent/visa.png", position: 9 },
-  { src: "src/assets/GlobeComponent/visa.png", position: 10 },
-  { src: "src/assets/GlobeComponent/visa.png", position: 11 },
+  { src: "/assets/GlobeComponent/visa.png", position: 1 },
+  { src: "/assets/GlobeComponent/mastercard.png", position: 2 },
+  { src: "/assets/GlobeComponent/americanexp.png", position: 3 },
+  { src: "/assets/GlobeComponent/visa.png", position: 4 },
+  { src: "/assets/GlobeComponent/visa.png", position: 5 },
+  { src: "/assets/GlobeComponent/visa.png", position: 6 },
+  { src: "/assets/GlobeComponent/visa.png", position: 7 },
+  { src: "/assets/GlobeComponent/visa.png", position: 8 },
+  { src: "/assets/GlobeComponent/visa.png", position: 9 },
+  { src: "/assets/GlobeComponent/visa.png", position: 10 },
+  { src: "/assets/GlobeComponent/visa.png", position: 11 },
 ];
 
 const globeSizes = {
@@ -126,7 +126,7 @@ const OrbitGlobe = () => {
     //       variants={globeVariants}
     //       animate="rotate">
     //       <img
-    //         src="src/assets/GlobeComponent/globe_idle.png"
+    //         src="/assets/GlobeComponent/globe_idle.png"
     //         alt="Earth globe"
     //         className="w-full h-full object-contain"
     //       />
@@ -162,7 +162,7 @@ const OrbitGlobe = () => {
         <div
           className={`w-[${globeSizes[screenSize]}px] h-auto absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2`}>
           <img
-            src="src/assets/GlobeComponent/globe_idle.png"
+            src="/assets/GlobeComponent/globe_idle.png"
             alt="Earth globe"
             className="w-full h-auto"
           />

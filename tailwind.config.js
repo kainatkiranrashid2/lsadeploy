@@ -6,7 +6,7 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        "starry-night": "url('src/assets/stary_background.svg')",
+        "starry-night": "url('/assets/stary_background.svg')",
       },
       fontSize: {
         h1: ["69px", { fontWeight: "700" }],

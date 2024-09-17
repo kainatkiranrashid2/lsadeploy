@@ -13,17 +13,17 @@ import PropTypes from "prop-types";
 //   {
 //     title: "Air",
 //     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit...",
-//     image: "src/assets/discoverlsa/mask_air.png",
+//     image: "/assets/discoverlsa/mask_air.png",
 //   },
 //   {
 //     title: "Sea",
 //     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit...",
-//     image: "src/assets/discoverlsa/mask_sea.svg",
+//     image: "/assets/discoverlsa/mask_sea.svg",
 //   },
 //   {
 //     title: "Land",
 //     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit...",
-//     image: "src/assets/discoverlsa/arrow_right.svg",
+//     image: "/assets/discoverlsa/arrow_right.svg",
 //   },
 // ];
 
@@ -36,19 +36,19 @@ const DiscoverLsaPay = () => {
         transition={{ duration: 0.5 }}>
         <TransportCard
           title="Title 1"
-          image="src/assets/discoverlsa/Manage_transactions.mp4"
+          image="/assets/discoverlsa/Manage_transactions.mp4"
           description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
           imageOnRight={false}
         />
         <TransportCard
           title="Title 2"
-          image="src/assets/discoverlsa/Reverse.mp4"
+          image="/assets/discoverlsa/Reverse.mp4"
           description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
           imageOnRight={true}
         />
         <TransportCard
           title="Title 3"
-          image="src/assets/discoverlsa/v2.mp4"
+          image="/assets/discoverlsa/v2.mp4"
           description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
           imageOnRight={false}
         />
@@ -116,7 +116,7 @@ const TransportCard = ({ title, image, description, imageOnRight }) => {
           transition={{ duration: 0.5, delay: 0.4 }}>
           <img
             className="mr-2"
-            src="src/assets/discoverlsa/fire_png.png"
+            src="/assets/discoverlsa/fire_png.png"
             alt="fire"
           />
           <p className="text-[12px] md:text-sm lg:text-md">LSAPAY HARDWARE</p>

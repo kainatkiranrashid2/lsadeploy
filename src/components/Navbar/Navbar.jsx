@@ -136,7 +136,7 @@ const Navbar = () => {
           {/* Logo section */}
           <div className="h-[62px] w-[62px] flex items-center">
             <img
-              src="src/assets/Logo_png.png"
+              src="/assets/Logo_png.png"
               className="bg-transparent h-full w-auto object-contain"
               alt="lsapay_logo"
             />
@@ -295,12 +295,12 @@ const Navbar = () => {
                                   INSIGHT
                                 </h3>
                                 <img
-                                  src="src/assets/illustration.png"
+                                  src="/assets/illustration.png"
                                   alt="illustration"
                                   className="w-full max-w-[200px] mb-4  h-full object-contain mx-auto relative"
                                 />
                                 <img
-                                  src="src/assets/ornament_top.png"
+                                  src="/assets/ornament_top.png"
                                   alt="Ornament Top"
                                   className="w-5 max-w-20 absolute right-[-5px] top-[-30px] h-full object-contain mx-auto"
                                 />
@@ -424,12 +424,12 @@ const Navbar = () => {
                 </h3>
                 <div className="relative isolate">
                   <img
-                    src="src/assets/illustration.png"
+                    src="/assets/illustration.png"
                     className="w-full max-w-[250px] h-full object-contain mx-auto"
                     alt="illustration"
                   />
                   <img
-                    src="src/assets/ornament_top.png"
+                    src="/assets/ornament_top.png"
                     className="w-5 max-w-20 absolute right-[-20px] top-[-60px] h-full object-contain mx-auto"
                     alt="illustration"
                   />

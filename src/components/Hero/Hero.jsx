@@ -107,11 +107,11 @@ const Hero = () => {
         <div className="relative isolate">
           {/* <CloudScene className="absolute dark:hidden w-full max-w-6xl left-[25%]  z-20" /> */}
           <img
-            src="src/assets/cloud.png"
+            src="/assets/cloud.png"
             className="absolute dark:hidden w-30 max-w-6xl top-4 left-[55%]  z-20"
           />
           <motion.video
-            src="src/assets/hero/full_globe_3.webm"
+            src="/assets/hero/full_globe_3.webm"
             alt="Global map"
             className="w-full z-20 max-w-full mx-auto relative"
             initial={{ opacity: 0, scale: 0.8 }}

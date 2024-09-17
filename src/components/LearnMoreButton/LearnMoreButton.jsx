@@ -20,7 +20,7 @@ const LearnMoreButton = ({ type }) => {
       </motion.button>
       <div className="absolute left-full ml-[-10px] bg-white p-1 rounded-full border-2 border-dark z-10">
         <div className="w-8 h-8 rounded-full flex items-center justify-center">
-          <img src="src/assets/discoverlsa/arrow_right.svg" alt="Arrow Icon" />
+          <img src="/assets/discoverlsa/arrow_right.svg" alt="Arrow Icon" />
         </div>
       </div>
     </motion.div>

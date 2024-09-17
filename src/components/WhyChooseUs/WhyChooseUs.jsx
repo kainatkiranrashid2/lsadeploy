@@ -6,7 +6,7 @@ const WhyLsaPayValues = [
   {
     id: 0,
     icon: {
-      src: "src/assets/why_choose_us/pci.png",
+      src: "/assets/why_choose_us/pci.png",
       alt: "pci",
     },
     heading: "Simplify Your PCI",
@@ -16,7 +16,7 @@ const WhyLsaPayValues = [
   {
     id: 1,
     icon: {
-      src: "src/assets/why_choose_us/offline.png",
+      src: "/assets/why_choose_us/offline.png",
       alt: "no_wifi_svg",
     },
     heading: "Online / Offline",
@@ -26,7 +26,7 @@ const WhyLsaPayValues = [
   {
     id: 2,
     icon: {
-      src: "src/assets/why_choose_us/ios.png",
+      src: "/assets/why_choose_us/ios.png",
       alt: "online_svg",
     },
     heading: "iOS, Android or Windows",
@@ -36,7 +36,7 @@ const WhyLsaPayValues = [
   {
     id: 3,
     icon: {
-      src: "src/assets/why_choose_us/accept_wristbands.png",
+      src: "/assets/why_choose_us/accept_wristbands.png",
       alt: "Accept Wristbands",
     },
     heading: "Accept Wristbands",
@@ -47,7 +47,7 @@ const WhyLsaPayValues = [
   {
     id: 4,
     icon: {
-      src: "src/assets/why_choose_us/accept_cards.png",
+      src: "/assets/why_choose_us/accept_cards.png",
       alt: "Accept Cards/Wallets",
     },
     heading: "Accept Cards/Wallets",
@@ -57,7 +57,7 @@ const WhyLsaPayValues = [
   {
     id: 5,
     icon: {
-      src: "src/assets/why_choose_us/configurable_data.png",
+      src: "/assets/why_choose_us/configurable_data.png",
       alt: "guarantee_svg",
     },
     heading: "Configurable Data",
@@ -68,7 +68,7 @@ const WhyLsaPayValues = [
   {
     id: 6,
     icon: {
-      src: "src/assets/why_choose_us/global_payments.png",
+      src: "/assets/why_choose_us/global_payments.png",
       alt: "database_svg",
     },
     heading: "Global Payments",
@@ -78,7 +78,7 @@ const WhyLsaPayValues = [
   {
     id: 7,
     icon: {
-      src: "src/assets/why_choose_us/beautiful_branding.png",
+      src: "/assets/why_choose_us/beautiful_branding.png",
       alt: "Beautiful Branding",
     },
     heading: "Beautiful Branding",
@@ -88,7 +88,7 @@ const WhyLsaPayValues = [
   {
     id: 8,
     icon: {
-      src: "src/assets/why_choose_us/recapture_engine.png",
+      src: "/assets/why_choose_us/recapture_engine.png",
       alt: "Recapture Engine  ",
     },
     heading: "Recapture Engine",

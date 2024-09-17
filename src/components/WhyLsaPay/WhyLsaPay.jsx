@@ -6,7 +6,7 @@ const WhyLsaPayValues = [
   {
     id: 0,
     icon: {
-      src: "src/assets/whylsa/lock_svg.svg",
+      src: "/assets/whylsa/lock_svg.svg",
       alt: "online_svg",
     },
     heading: "Simplify Your PCI",
@@ -16,7 +16,7 @@ const WhyLsaPayValues = [
   {
     id: 1,
     icon: {
-      src: "src/assets/whylsa/no_wifi_svg.svg",
+      src: "/assets/whylsa/no_wifi_svg.svg",
       alt: "no_wifi_svg",
     },
     heading: "Online / Offline",
@@ -26,7 +26,7 @@ const WhyLsaPayValues = [
   {
     id: 2,
     icon: {
-      src: "src/assets/whylsa/online_svg.svg",
+      src: "/assets/whylsa/online_svg.svg",
       alt: "online_svg",
     },
     heading: "iOS, Android or Windows",
@@ -36,7 +36,7 @@ const WhyLsaPayValues = [
   {
     id: 3,
     icon: {
-      src: "src/assets/whylsa/wristband_svg.svg",
+      src: "/assets/whylsa/wristband_svg.svg",
       alt: "Accept Wristbands",
     },
     heading: "Accept Wristbands",
@@ -47,7 +47,7 @@ const WhyLsaPayValues = [
   {
     id: 4,
     icon: {
-      src: "src/assets/whylsa/credit_card_svg.svg",
+      src: "/assets/whylsa/credit_card_svg.svg",
       alt: "Accept Cards/Wallets",
     },
     heading: "Accept Cards/Wallets",
@@ -57,7 +57,7 @@ const WhyLsaPayValues = [
   {
     id: 5,
     icon: {
-      src: "src/assets/whylsa/database_svg.svg",
+      src: "/assets/whylsa/database_svg.svg",
       alt: "guarantee_svg",
     },
     heading: "Configurable Data",
@@ -68,7 +68,7 @@ const WhyLsaPayValues = [
   {
     id: 6,
     icon: {
-      src: "src/assets/whylsa/money_transfer_svg.svg",
+      src: "/assets/whylsa/money_transfer_svg.svg",
       alt: "database_svg",
     },
     heading: "Global Payments",
@@ -78,7 +78,7 @@ const WhyLsaPayValues = [
   {
     id: 7,
     icon: {
-      src: "src/assets/whylsa/money_transfer_svg.svg",
+      src: "/assets/whylsa/money_transfer_svg.svg",
       alt: "Beautiful Branding",
     },
     heading: "Beautiful Branding",
@@ -88,7 +88,7 @@ const WhyLsaPayValues = [
   {
     id: 8,
     icon: {
-      src: "src/assets/whylsa/check_svg.svg",
+      src: "/assets/whylsa/check_svg.svg",
       alt: "Recapture Engine  ",
     },
     heading: "Recapture Engine",

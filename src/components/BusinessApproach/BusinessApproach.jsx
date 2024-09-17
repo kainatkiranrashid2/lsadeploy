@@ -51,7 +51,7 @@ const BusinessApproach = () => {
               transition={{ duration: 0.5, delay: 1 + index * 0.2 }}
               whileHover={{ scale: 1.1, rotate: 5 }}>
               <img
-                src={`src/assets/discoverlsa/${company}.png`}
+                src={`/assets/discoverlsa/${company}.png`}
                 alt={`${company} logo`}
               />
             </motion.div>
