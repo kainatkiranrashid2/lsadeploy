@@ -11,7 +11,6 @@ import Heading from "../../components/WhyLsaPay/Heading";
 import WhyLsaPay from "../../components/WhyLsaPay/WhyLsaPay";
 import StaggeredText from "../../components/StaggeredText/StaggeredText";
 import StaggeredTextTwo from "../../components/StaggeredText/StaggeredTextTwo";
-import OurClientsNew from "../../OurClientsNew/OurClientsNew";
 import AboutUsEffect from "../../components/AboutUsEffect/AboutUsEffect";
 const Home = () => {
   const items = [
