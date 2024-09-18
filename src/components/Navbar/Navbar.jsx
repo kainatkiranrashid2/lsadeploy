@@ -168,7 +168,7 @@ const Navbar = () => {
           <div className="hidden md:flex gap-[14px] items-center">
             <ThemeToggle />
             <motion.button
-              className=" primary-btn flex items-center text-white text-[16px] font-bold !w-[139px] !h-[46px] py-[17.5px] px-6 rounded-lg"
+              className=" primary-btn flex items-center text-white text-[16px] font-bold !w-[139px] !h-[46px] py-[17.5px] px-6 rounded-lg font-PP_Mori"
               whileHover={{
                 scale: 1.2,
                 boxShadow: "0px 0px 8px rgb(255,255,255)",

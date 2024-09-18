@@ -66,7 +66,7 @@ const ThemeToggle = () => {
         aria-haspopup="listbox"
         aria-expanded={isOpen}>
         {getIcon()}
-        <span className="font-bold text-[#060606] dark:text-white   ">
+        <span className="font-bold text-[#060606] dark:text-white font-PP_Mori   ">
           Theme
         </span>
         {/* {theme} */}

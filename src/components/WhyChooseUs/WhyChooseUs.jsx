@@ -155,7 +155,7 @@ const WhyChooseUs = () => {
                   style={{ lineHeight: "40px", letterSpacing: "-1px" }}>
                   {item.heading}
                 </h1>
-                <p className="text-[11px] md:text-[15px] lg:text-[16px] 2xl:text-[17px] text-dark text-left font-[500] font-PP_Mori">
+                <p className="text-[18px] text-dark text-left font-[500] font-PP_Mori">
                   {item.details}
                 </p>
               </div>

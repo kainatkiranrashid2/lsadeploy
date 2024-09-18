@@ -46,7 +46,7 @@ const Hero = () => {
             initial={{ opacity: 0, y: -50 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}>
-            <motion.span className="text-h1 text-black dark:text-white 	   ">
+            <motion.span className="text-h1 text-black dark:text-white ">
               Take payments anytime, anywhere
             </motion.span>
 
