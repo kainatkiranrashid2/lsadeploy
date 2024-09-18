@@ -8,6 +8,10 @@ export default {
       backgroundImage: {
         "starry-night": "url('/assets/stary_background.svg')",
       },
+      backgroundRepeat: {
+        "no-repeat": "no-repeat",
+      },
+
       fontSize: {
         h1: ["69px", { fontWeight: "700" }],
         h2: ["55px", { lineHeight: "47px", fontWeight: "700" }],

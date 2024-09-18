@@ -52,7 +52,7 @@ const Hero = () => {
 
             <motion.div
               key={currentText}
-              className="ml-2  text-h1 rounded-2xl !h-[95px] py-0 px-0 bg-primary font-PP_Mori text-white border-4 border-[#65D008] inline-block  "
+              className="ml-2  text-h1 rounded-2xl !h-[95px] py-0 px-0 bg-primary font-PP_Mori text-nowrap   text-white border-4 border-[#65D008] inline-block  "
               style={{ lineHeight: "69px !important" }}
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
